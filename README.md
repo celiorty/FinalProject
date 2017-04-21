@@ -1,2 +1,3 @@
 # VR lab FinalProject
-1st comm
+
+Created by Tony Zhao and Dan Chen.
