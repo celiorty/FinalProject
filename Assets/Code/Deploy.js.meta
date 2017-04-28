@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: e6e00dc05b6ef1642b6453d36b2b7555
-timeCreated: 1492654474
-licenseType: Free
+guid: fd62df95a68e7864db24b77a4f562480
+timeCreated: 1493245889
+licenseType: Pro
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - DeployPrefab: {fileID: 4136402465965852, guid: 3c753b186926d07418cb8903a9b96d56,
+  - DeployPrefab: {fileID: 4311133356526072, guid: 51d24f08c34ea9042b292a5889587978,
       type: 2}
   executionOrder: 0
   icon: {instanceID: 0}

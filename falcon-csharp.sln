@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{FA0D1A60-EF66-16BB-2803-8515C8EA4CB2}") = "falcon", "Assembly-CSharp-firstpass-vs.csproj", "{4E061FE6-4446-9447-772A-CDECCA98E420}"
+EndProject
+Project("{FA0D1A60-EF66-16BB-2803-8515C8EA4CB2}") = "falcon", "Assembly-CSharp-vs.csproj", "{C7F190AF-E633-B776-3143-EA7CFC845383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E061FE6-4446-9447-772A-CDECCA98E420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E061FE6-4446-9447-772A-CDECCA98E420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E061FE6-4446-9447-772A-CDECCA98E420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E061FE6-4446-9447-772A-CDECCA98E420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F190AF-E633-B776-3143-EA7CFC845383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F190AF-E633-B776-3143-EA7CFC845383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F190AF-E633-B776-3143-EA7CFC845383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F190AF-E633-B776-3143-EA7CFC845383}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+							GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+
+EndGlobal
