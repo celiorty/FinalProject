@@ -21,6 +21,7 @@ public class hapticBehavior : MonoBehaviour {
 	public float pos;
 	float coeff;
 
+
 	void Start(){
 		plugin.StartHapticsSystem();
 		StartCoroutine(plugin.InitHapticsSystem());
@@ -61,5 +62,7 @@ public class hapticBehavior : MonoBehaviour {
 		
 		plugin.SetServo(force);	//
 		previousServoPos=currentServoPos;
+
+
 	}
 }
