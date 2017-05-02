@@ -51,4 +51,11 @@ public class CubeForce : MonoBehaviour {
 		
 		rb.AddForce(movement * speed);
 	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag ("BlackEnemy") || other.gameObject.CompareTag ("BlueEnemy")) {
+			other.gameObject.SetActive (false);
+		}
+	}
 }
