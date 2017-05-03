@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class spawner : MonoBehaviour {
 
@@ -11,13 +12,20 @@ public class spawner : MonoBehaviour {
 	public float spawnLeastWait;
 	public int startWait;
 	public bool stop;
-
 	int randEnemy; //random enemy
+
+
+	//score keeping
+	public Text scoreText;
+	private int score;
+
 
 	// Use this for initialization
 	void Start ()
 	{
+		score = 0;
 		StartCoroutine (waitSpawn ());
+
 	}
 	
 	// Update is called once per frame
@@ -25,6 +33,7 @@ public class spawner : MonoBehaviour {
 	{
 		//randomizes time for spawn
 		spawnWait = Random.Range (spawnLeastWait, spawnMostWait);
+		SetScoreText();
 	}
 
 	//waits amount of time before spawning
@@ -45,4 +54,17 @@ public class spawner : MonoBehaviour {
 			yield return new WaitForSeconds (spawnWait);
 		}
 	}
+
+	public void AddScore(int newScoreValue)
+	{
+		score += newScoreValue;
+		SetScoreText();
+	}
+
+	void SetScoreText()
+	{
+		scoreText.text = "Score: " + score.ToString ();
+	}
+
+
 }

@@ -9,9 +9,16 @@ public class CubeForce : MonoBehaviour {
 	private Rigidbody rb;
 	
 	private Vector3 movement;
-	
+
+	public int scoreValue;
+	private spawnerL2 playerControl;
+
 	void Start(){
 		rb = GetComponent<Rigidbody>();
+
+		//instantiate player control in order to add score
+		GameObject playerControlObject = GameObject.FindWithTag ("playerControl2");
+		playerControl = playerControlObject.GetComponent <spawnerL2>();
 	}
 	
 	void FixedUpdate(){
@@ -54,8 +61,19 @@ public class CubeForce : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.CompareTag ("BlackEnemy") || other.gameObject.CompareTag ("BlueEnemy")) {
-			other.gameObject.SetActive (false);
+		if (other.gameObject.CompareTag ("BlackCube"))
+		{
+			//other.gameObject.SetActive (false);
+			
+			playerControl.AddScore (10);
+			Destroy (other.gameObject);
+			Destroy (gameObject);
+		}
+		if (other.gameObject.CompareTag ("BlueCube"))
+		{
+			playerControl.AddScore (20);
+			Destroy (other.gameObject);
+			Destroy (gameObject);
 		}
 	}
 }
