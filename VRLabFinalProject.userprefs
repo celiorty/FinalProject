@@ -1,32 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\CubeForce.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\CameraSelect.js">
     <Files>
-      <File FileName="Assets\Code\CubeForce.cs" Line="61" Column="2" />
-      <File FileName="Assets\Plugins\falconBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\keyboardcontrol.cs" Line="20" Column="71" />
-      <File FileName="Assets\Code\Deploy2.cs" Line="20" Column="4" />
-      <File FileName="Assets\Code\spawner.cs" Line="42" Column="44" />
+      <File FileName="Assets\Code\CameraSelect.js" Line="18" Column="2" />
+      <File FileName="Assets\Code\spawner.cs" Line="9" Column="25" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="VRLabFinalProject" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Code" expanded="True">
-                <Node name="CubeForce.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="Assembly-CSharp-firstpass" expanded="True">
-              <Node name="Plugins" expanded="True" />
-            </Node>
-            <Node name="Assembly-UnityScript" expanded="True">
-              <Node name="Code" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

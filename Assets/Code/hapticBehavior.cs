@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class hapticBehavior : MonoBehaviour {
+	public GameObject block;
 	public Texture TextA;
 	public Texture TextB;
 	public GameObject smallSphere;
@@ -33,7 +34,11 @@ public class hapticBehavior : MonoBehaviour {
 	}
 
 	void Update(){
-		//transform.localScale = new Vector3(dia, dia, dia);
+		if (Input.GetKeyDown("space")) {
+			GameObject tempblock = Instantiate(block, GameObject.Find("SpawnPoint").transform.position, Quaternion.identity);
+			
+			Destroy (tempblock, 3.0f);
+		}
 	}
 
 	void FixedUpdate(){
