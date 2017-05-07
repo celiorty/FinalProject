@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Code\CubeForce.cs" />
      <Compile Include="Assets\Code\CubeForceL1.cs" />
+     <Compile Include="Assets\Code\SpawnObjects.cs" />
      <Compile Include="Assets\Code\hapticBehavior.cs" />
      <Compile Include="Assets\Code\keyboardcontrol.cs" />
      <Compile Include="Assets\Code\menu.cs" />

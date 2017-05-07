@@ -17,6 +17,7 @@ public class CubeForceL1 : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
+		Debug.Log("Hit!!");
 		if (other.gameObject.CompareTag ("BlackCube"))
 		{
 			//other.gameObject.SetActive (false);

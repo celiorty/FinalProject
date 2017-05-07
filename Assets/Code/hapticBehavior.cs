@@ -26,7 +26,7 @@ public class hapticBehavior : MonoBehaviour {
 	void Start(){
 		plugin.StartHapticsSystem();
 		StartCoroutine(plugin.InitHapticsSystem());
-		GetComponent<Renderer>().material.mainTexture=TextA;
+		//GetComponent<Renderer>().material.mainTexture=TextA;
 	}
 
 	void OnApplicationQuit(){
